@@ -163,6 +163,10 @@ ul.styled li:before{
     left: -15px;
 }
 
+.breadcrumbs p a,.breadcrumbs span{
+    font-size: 12px;
+    color: #000000;
+}
 
 .main-wrap{
     min-height: 100%;
@@ -1622,7 +1626,12 @@ form.form_aside_subscribe input[type='submit']{
     margin-top: 15px;
     padding-left: 10px;
     text-transform: uppercase;
+    cursor: pointer;
 
+}
+
+form.form_aside_subscribe input[type='submit']:hover{
+    background: #00df61;
 }
 
 /*----section----*/
@@ -1695,3 +1704,225 @@ section.right_column_mission .section_right_column_mission_img img:first-child{
     margin-left: 0;
 }
 /*------------*/
+/*---Ёкспертный совет---*/
+
+/*----------------------*/
+/*---„ленство---*/
+
+form.form_section_membership{
+    width: 598px;
+}
+
+section.right_column .section_membership_form h3.membership_h3{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.right_column.section_membership_form h3.membership_h3+p{
+   color: #414141;
+    font-size: 16px;
+
+}
+
+section.right_column form.form_section_membership p{
+    color: #111111;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+section.right_column form.form_section_membership input[type='text']{
+    color: #808080;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding-left:10px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #b3b3b3;
+}
+
+section.right_column form.form_section_membership input[type='submit']{
+    background: #1775cf;
+    width: 230px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color:#ffffff;
+    font-size: 14px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    margin: 25px auto 50px auto;
+}
+
+section.right_column form.form_section_membership input[type='submit']:hover{
+    background: #12a3ff;
+}
+
+p.section_additional_information{
+    color:#414141 ;
+    font-size: 16px;
+}
+
+p.section_additional_information a{
+    color:#259fe1 ;
+    font-size: 16px;
+}
+/*-------------*/
+/*---structure association*/
+.structure_ul_styled ul.styled,.structure_ul_styled ul.styled_blue_marker{
+    margin-bottom:50px;
+}
+
+.structure_ul_styled ul.styled li {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin-bottom: 15px;
+    padding-left: 68px;
+    display: block;
+}
+
+
+.structure_ul_styled ul.styled li:before{
+    background: #00b44e;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    content: "";
+    display: block;
+    position: relative;
+    top: 16px;
+    left: -15px;
+}
+
+.structure_ul_styled ul.styled_blue_marker li {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin-bottom: 15px;
+    padding-left: 68px;
+    display: block;
+}
+
+
+.structure_ul_styled ul.styled_blue_marker li:before{
+    background: #1775cf;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    content: "";
+    display: block;
+    position: relative;
+    top: 16px;
+    left: -15px;
+}
+
+h3.structure_ul{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*------------------------*/
+/*---representation---*/
+img.representation_map{
+    display: block;
+    margin: 40px 0 33px 0;
+}
+
+.representation_container{
+    width: 871px;
+    margin:0 0 0 0 ;
+}
+
+
+.representation_item{
+    width: 380px;
+    float: left;
+    background: #f3f2f2;
+    padding: 25px  20px;
+    margin: 0 0 0 0;
+}
+
+.representation_container .representation_item:nth-child(2n){
+
+    margin:0 0 0 30px ;
+}
+
+.representation_container .representation_item:nth-child(1n){
+
+    margin-bottom:30px;
+}
+p.representation_item_logo{
+    font-size: 16px;
+    font-weight: bold;
+    color:#000000;
+    display: block;
+}
+
+p.representation_item_logo:after{
+    border: 1px solid #b1b1b1;
+    border-radius: 1px;
+    content: "";
+    display: block;
+    margin: 15px 0;
+    width: 36px;
+}
+
+.representation_item p.address_representation{
+    font-size: 16px;
+}
+
+.representation_item p.address_representation span{
+    font-size: 16px;
+    font-weight: bold;
+}
+/*--------------------*/
+
+/*---partners---*/
+.partners_container{
+    width: 871px;
+    margin:0 0 0 0 ;
+}
+
+
+.partners_item{
+    width: 380px;
+    float: left;
+    background: #f3f2f2;
+    padding: 25px  20px;
+    margin: 0 0 0 0;
+}
+
+.partners_container .partners_item:nth-child(2n){
+
+    margin:0 0 0 30px ;
+}
+
+.partners_container .partners_item:nth-child(1n){
+
+    margin-bottom:30px;
+}
+p.partners_item_logo{
+    font-size: 16px;
+    font-weight: bold;
+    color:#000000;
+    display: block;
+}
+
+p.partners_item_logo:after{
+    border: 1px solid #b1b1b1;
+    border-radius: 1px;
+    content: "";
+    display: block;
+    margin: 15px 0;
+    width: 36px;
+}
+
+.partners_container .partners_item  p.address_partners{
+    font-size: 16px;
+}
+
+/*--------------*/
