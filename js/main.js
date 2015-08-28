@@ -9,5 +9,8 @@ $(document).ready(function(){
         pagination : true
     });
 
+    // fancy
+    $('.fancy').fancybox();
+
 
 });
