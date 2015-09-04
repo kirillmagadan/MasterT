@@ -1335,11 +1335,11 @@ aside{
 }
 
 .page_content_inner .aside_seminar_menu_top h3{
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #000000;
-    margin: 0 0 0 20px;
-}
+     font-size: 24px;
+     text-transform: uppercase;
+     color: #000000;
+     margin: 0 0 0 20px;
+ }
 
 
 .aside_seminar_menu_top ul.menu_top_page{
@@ -3721,4 +3721,196 @@ form.form_section_input_seminar input[type="submit"]:hover {
     font-size: 14px !important;
     font-weight: normal;
     text-transform: none;
+}
+/*--your id --*/
+.form_input_seminar .your_id_number{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+
+}
+
+.form_input_seminar p.your_id_number span{
+    color: #1775cf;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*--404--*/
+p.tip_404{
+    font-size: 16px;
+    color: #414141;
+    display: block;
+    width:inherit ;
+    margin: auto;
+    text-align: center;
+
+}
+
+p.tip_404 a{
+    font-size: 16px;
+    color: #1775cf;
+   text-decoration: underline;
+
+}
+
+img.img_404{
+    display: block;
+    margin:65px auto ;
+
+}
+
+
+p.tip_404_p{
+    display: block;
+    width: inherit;
+    text-align:center;
+    margin: auto;
+}
+/*--mobile app--*/
+h4.mobile_app_h4{
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.aside_seminar_menu_top ul.menu_mobile_app{
+    margin:28px 0 0 0;
+    width: 242px;
+    padding: 0 0 0 20px;
+}
+
+.aside_seminar_menu_top ul.menu_mobile_app li {
+    display:block;
+    font-size: 14px;
+    margin: 0 0 25px 0;
+    text-align: left;
+
+}
+
+.aside_seminar_menu_top ul.menu_mobile_app li:last-child {
+ margin-bottom: 0;
+
+}
+
+.store_mobile_app{
+    width: 217px;
+    margin:55px auto;
+}
+
+
+.store_mobile_app a{
+    font-size: 14px;
+    color: #414141;
+    text-decoration: underline;
+}
+
+.mobile_app_video{
+    width: inherit;
+    margin:32px auto;
+}
+
+.mobile_app_video .mobile_app_video_text{
+    float: left;
+    width: 570px;
+}
+
+.mobile_app_video .mobile_app_video_text p{
+    line-height: 2;
+}
+
+.mobile_app_video iframe{
+    float: right;
+    width: 570px;
+}
+
+/*mobile slider*/
+.mobile_app_slider_glare{
+    background: rgba(0, 0, 0, 0) url("../img/glare.png") no-repeat scroll 0 0;
+    bottom: 0;
+    height: 426px;
+    position: absolute;
+    right: 59px;
+    top: 10px;
+    width: 152px;
+}
+
+.mobile_app_slider{
+    background: url("../img/iphone.png") no-repeat;
+    width: 370px;
+    height: 654px;
+    margin:75px auto;
+    position: relative;
+
+}
+
+.mobile_img_container{
+    padding: 87px 0 0 65px;
+    position: relative;
+
+}
+
+.prev_ar a{
+    background: rgba(0, 0, 0, 0) url("../img/mobile_arrows_left.png") repeat scroll 0 0;
+    height: 40px;
+    left: -66px;
+    position: absolute;
+    top: 297px;
+    width: 40px;
+}
+
+.next_ar a{
+    background: rgba(0, 0, 0, 0) url("../img/mobile_arrows_right.png") repeat scroll 0 0;
+    height: 40px;
+    right: -58px;
+    position: absolute;
+    top: 297px;
+    width: 40px;
+}
+
+.sm_nav_mobile{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 20;
+    width: 100px;
+}
+
+.sm_nav-item_mobile{
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 24px;
+    padding: 0;
+    background-color: #cacaca;
+}
+
+li.sm_nav-item_mobile:last-child {
+
+    margin-right: 0;
+
+}
+.sm_nav-item_mobile i{
+    width: 0;
+    height: 0;
+}
+
+.sm_nav-item_mobile.active{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1775cb+0,2eb7e9+51 */
+    background: rgb(23,117,203); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE3NzVjYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzJlYjdlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, rgba(23,117,203,1) 0%, rgba(46,183,233,1) 51%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(23,117,203,1)), color-stop(51%,rgba(46,183,233,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(23,117,203,1) 0%,rgba(46,183,233,1) 51%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(23,117,203,1) 0%,rgba(46,183,233,1) 51%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(23,117,203,1) 0%,rgba(46,183,233,1) 51%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(23,117,203,1) 0%,rgba(46,183,233,1) 51%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1775cb', endColorstr='#2eb7e9',GradientType=0 ); /* IE6-8 */
 }
