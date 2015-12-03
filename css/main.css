@@ -1038,11 +1038,13 @@ ul.banner_bottom_photo .central-banner{
 }
 
 
-.bottom_menu{
-    width: 100%;
+.bottom_menu {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    height: 50px;
     min-width: 1170px;
-    background: rgba(109,109,109,0.5);
+    padding-top: 30px;
 }
+
 
 .nav_bottom{
     width: 1170px;
@@ -1055,7 +1057,6 @@ ul.banner_bottom_photo .central-banner{
 .bottom_menu{
     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
     min-width: 1170px;
-    padding-bottom: 30px;
     padding-top: 30px;
 }
 
