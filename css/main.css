@@ -1082,10 +1082,17 @@ ul.banner_bottom_photo .central-banner{
 
 
 .footer_container{
-    background: #4d4d4d ;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#878787+0,4b4b4b+72&0.5+0,0.91+100 */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg3ODc4NyIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iNzIlIiBzdG9wLWNvbG9yPSIjNGI0YjRiIiBzdG9wLW9wYWNpdHk9IjAuOCIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNGI0YjRiIiBzdG9wLW9wYWNpdHk9IjAuOTEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top, rgba(135,135,135,0.5) 0%, rgba(75,75,75,0.8) 72%, rgba(75,75,75,0.91) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(135,135,135,0.5) 0%,rgba(75,75,75,0.8) 72%,rgba(75,75,75,0.91) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(135,135,135,0.5) 0%,rgba(75,75,75,0.8) 72%,rgba(75,75,75,0.91) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80878787', endColorstr='#e84b4b4b',GradientType=0 ); /* IE6-8 */
     width: 100%;
     min-width: 1170px;
     height: 114px;
+    padding-bottom: 10px;
 }
 
 .footer_content{
@@ -1104,7 +1111,7 @@ ul.banner_bottom_photo .central-banner{
 p.reef{
     color:#ffffff;
     font-size: 12px;
-
+    margin-bottom: 0;
 }
 
 p.reef a{
